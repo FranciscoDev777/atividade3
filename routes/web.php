@@ -18,3 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/bakery',[PrincipalController::class, 'bakery']);
+
+Route::get('/sobre-nos', [PrincipalController::class, 'sobrenos']);
+
