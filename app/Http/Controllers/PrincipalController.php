@@ -15,4 +15,9 @@ class PrincipalController extends Controller
     {
         return view('sobrenos'); // chama sobrenos.blade.php
     }
+
+    public function contato()
+    {
+        return view('contato');
+    }
 }

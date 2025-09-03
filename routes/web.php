@@ -21,3 +21,4 @@ Route::get('/bakery',[PrincipalController::class, 'bakery']);
 
 Route::get('/sobre-nos', [PrincipalController::class, 'sobrenos']);
 
+Route::get('/contato',[PrincipalController::class, 'contato']);
